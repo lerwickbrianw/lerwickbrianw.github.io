@@ -1,0 +1,39 @@
+header {
+  font-family: pangolin, Arial, sans-serif;
+  display: grid;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: 120px 1fr;
+  border: 3px green;
+}
+
+#logo {
+  display: grid;
+  height: 100px;
+  border: 1px solid black;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+h1 {
+  display: flex;
+  font: 20pt Arial;
+  grid-column: 2;
+  grid-row: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+#main_menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column: 2;
+  grid-row: 2;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  list-style: none;
+  grid-row: 5;
+  grid-column: 1;
+}
